@@ -1,0 +1,64 @@
+.container{
+  width: 75%;
+}
+
+.info{
+  font-size: .6rem;
+}
+
+.fw-semibold{
+  font-size: .8rem;
+}
+
+.lists{
+  font-size: .6rem;
+}
+
+.line{
+  border-top: 1px solid white;
+}
+
+.icons{
+  width: 20px;
+}
+
+.school, .skill, .contact{
+  font-size: .6rem;
+}
+
+.gradeLevel, .contactInfo{
+  font-weight: bold;
+  font-size: .7rem;
+}
+
+@media only screen and (max-width:640px) {
+  .container{
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width:450px) {
+  .container{
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0% !important;
+    margin: 0% !important;
+  }
+
+  section{
+    width: 100% !important;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  ul.lists, ul.ps-2{
+    list-style: none;
+    padding-left: 0% !important;
+  }
+
+  .line{
+    justify-content: center !important;
+  }
+}
